@@ -1,0 +1,110 @@
+/* General page background */
+body {
+    background-color: #add8e6; /* Light blue */
+    margin: 0;
+    font-family: Georgia, serif;
+    p, ul, li{
+     font-family: Arial;
+     margin: 10px;
+    }
+
+}
+a {
+     color:#0078A0
+}
+
+#question1, #question2{
+     font-style: bold;
+}
+
+/* Styling for headers with gradient blue background */
+#header {
+    background: linear-gradient(to right, #0078A0, #30C6E1); 
+    font-family: Georgia, serif;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px; /* Rounded edges */
+    margin: 10px;
+}
+
+#quiz-section {
+     background-color: #90e0ef;
+     margin: 10px;
+     padding: 20px;
+     border-radius: 10px; /* Rounded corners */
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     h2{
+          margin-bottom: 10px;
+     }
+     img{
+          border: 5px solid rgb(118, 30, 140);
+          margin-bottom: 10px;
+     }
+}
+input[type="text"] {
+    padding: 8px;
+    margin: 20px -30px;
+    border: 2px solid #003366; /* Dark blue border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Consistent font size */
+    width: 100%; /* Full width inputs */
+}
+
+input[type="submit"] {
+    padding: 10px;
+    margin-right: 20px;
+    background-color: #0078A0; /* Blue button */
+    color: white; /* White text on button */
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Styling for the main content */
+#main-content {
+    background-color: white; /* White background */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow */
+    h1, h2, h3, h4, h5, h6{
+     color:#0078A0
+    }
+}
+.important {
+     background-color: #30C6E1;
+}
+#species-table{
+     padding: 20px;
+     margin: 10px;
+     border-spacing: 0px;
+     text-align: left;
+     width: 100%;
+     table{
+          width: 100%;
+          border-collapse: collapse;
+          border: 2px solid black;
+     }
+     th, td{
+          border: 2px solid black;
+          padding: 10px;
+     }
+     th{
+          color:white;
+          background-color: gray;
+     }
+}
+/* Optional: Footer styling */
+#footer {
+    background: #01749aee;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
